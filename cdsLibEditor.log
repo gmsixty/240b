@@ -1,0 +1,60 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.5 - CAT32 10/23/2012 17:38 (cat91amd) $
+\o Sub version:		sub-version  s011 
+\o Arguments:		-cdslib /home/cc/cs199/fa13/class/cs199-cfq/ee240b/project/cds.lib -mpssession virtuoso31530 -mpshost c125m-21.EECS.Berkeley.EDU 
+\o Working Directory:	c125m-21.EECS.Berkeley.EDU:/home/cc/cs199/fa13/class/cs199-cfq/ee240b/project
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.5.3
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "cdsDefTechLib"
+\a nrResizeWindow(cdsLibEditor list(20 20 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 9 0)
+\o Active cell: 9 0 ""
+\a nrListItemAction(cdsLibEditor->mainTable 9 1)
+\o Active cell: 9 1 ""
+\a cdsLibEditor->editAddLibButton->value = t
+\a newLibraryDialog->filePathComboBox->value = "/home/cc/cs199/fa13/class/cs199-cfq/ee240b/project"
+\a newLibraryDialog->useMappedName->value = nil
+\a nrSetWindowVisibility(newLibraryDialog "show")
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(4 42 531 513))
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/cc/cs199/fa13/class/cs199-cfq/ee240b/project/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/cc/cs199/fa13/class/cs199-cfq/ee240b/project"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/cc/cs199/fa13/class/cs199-cfq/ee240b/project/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/cc/cs199/fa13/class/cs199-cfq/ee240b/project"
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/cc/cs199/fa13/class/cs199-cfq/ee240b"
+\a newLibraryDialog->dirListWidget->value = "hw8"
+\a newLibraryDialog->filePathComboBox->value = "/home/cc/cs199/fa13/class/cs199-cfq/ee240b/hw8"
+\a nrListItemAction(newLibraryDialog->dirListWidget 5 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/cc/cs199/fa13/class/cs199-cfq/ee240b/hw8/.."
+\a newLibraryDialog->libraryListBox->value = "hw8"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/cc/cs199/fa13/class/cs199-cfq/ee240b/hw8"
+\a newLibraryDialog->useMappedName->value = t
+\a newLibraryDialog->libraryName->value = "hw8"
+\a newLibraryDialog->okButton->value = t
+\a newLibraryDialog->libraryListBox->value = nil
+\a newLibraryDialog->useMappedName->value = nil
+\a newLibraryDialog->libraryName->value = ""
+\a nrListItemAction(cdsLibEditor->mainTable 10 0)
+\o Active cell: 10 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 8 0)
+\o Active cell: 8 0 "240bproject"
+\a nrListItemAction(cdsLibEditor->mainTable 8 1)
+\o Active cell: 8 1 "/home/cc/cs199/fa13/class/cs199-cfq/ee240b/project/240bproject"
+\a cdsLibEditor->fileExitButton->value = t
+\o QUESTION (CLE-205): You have made changes which have not been saved. \n\nWould you like to save your changes? 
+\a nrSetWindowVisibility(needSaveDialog "show")
+\a nrSetCurrentWindow(needSaveDialog)
+\a nrResizeWindow(needSaveDialog list(85 42 369 130))
+\a needSaveDialog->yesButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)

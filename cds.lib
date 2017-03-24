@@ -1,0 +1,6 @@
+# File Created by MELNIKOV,GLEB,, at Thu Mar 23 23:13:50 2017
+# assisted by CdsLibEditor
+SOFTINCLUDE /share/instsww/cadence/IC615.151/share/cdssetup/cds.lib
+#Removed by ddDeleteObj: DEFINE project /home/cc/cs199/fa13/class/cs199-cfq/ee240b/project/project
+DEFINE 240bproject /home/cc/cs199/fa13/class/cs199-cfq/ee240b/project/240bproject
+DEFINE hw8 /home/cc/cs199/fa13/class/cs199-cfq/ee240b/hw8/hw8
