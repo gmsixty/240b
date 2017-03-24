@@ -1,6 +1,6 @@
 \o Program:		@(#)$CDS: libManager version 6.1.5 - CAT32 10/23/2012 17:37 (cat91amd) $
 \o Sub version:		sub-version  s011 
-\o Arguments:		-unmapped -mpssession virtuoso12463 -mpshost c125m-21.EECS.Berkeley.EDU 
+\o Arguments:		-unmapped -mpssession virtuoso4544 -mpshost c125m-21.EECS.Berkeley.EDU 
 \o Working Directory:	c125m-21.EECS.Berkeley.EDU:/home/cc/cs199/fa13/class/cs199-cfq/ee240b/project
 \o 64-bit offsets
 \o Qt version: 		4.5.3
@@ -10,8 +10,8 @@
 \o Opening libManager window.
 \a nrSetWindowVisibility(cdsLibManager "show")
 \o MPS service: map window
-\a nrSetCurrentWindow(cdsLibManager)
 \o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
 \a nrResizeWindow(cdsLibManager list(0 0 876 554))
 \a cdsLibManager->libListBox->value = "240bproject"
 \a cdsLibManager->cellListBox->value = "milestone1"
