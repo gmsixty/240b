@@ -1,18 +1,17 @@
 \o Program:		@(#)$CDS: libManager version 6.1.5 - CAT32 10/23/2012 17:37 (cat91amd) $
 \o Sub version:		sub-version  s011 
-\o Arguments:		-unmapped -mpssession virtuoso4544 -mpshost c125m-21.EECS.Berkeley.EDU 
+\o Arguments:		-mpssession virtuoso14434 -mpshost c125m-21.EECS.Berkeley.EDU 
 \o Working Directory:	c125m-21.EECS.Berkeley.EDU:/home/cc/cs199/fa13/class/cs199-cfq/ee240b/project
 \o 64-bit offsets
 \o Qt version: 		4.5.3
-\o changeWorkingDir("/home/cc/cs199/fa13/class/cs199-cfq/ee240b/project") unnecessary.
-\o ddSetForcedLib("") unnecessary.
 \o Log file is "/home/cc/cs199/fa13/class/cs199-cfq/ee240b/project/libManager.log".
 \o Opening libManager window.
-\a nrSetWindowVisibility(cdsLibManager "show")
-\o MPS service: map window
-\o Library Manager customization server connected.
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrResizeWindow(cdsLibManager list(0 0 876 554))
+\o changeWorkingDir("/home/cc/cs199/fa13/class/cs199-cfq/ee240b/project") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o MPS service: map window
+\o Library Manager customization server connected.
 \a cdsLibManager->libListBox->value = "240bproject"
 \a cdsLibManager->cellListBox->value = "milestone1"
 \a cdsLibManager->cellLineEdit->value = "milestone1"
@@ -51,7 +50,3 @@
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetWindowVisibility(cdsLibManager "hide")
-\o libManager is exiting.
-\a exit(0)
