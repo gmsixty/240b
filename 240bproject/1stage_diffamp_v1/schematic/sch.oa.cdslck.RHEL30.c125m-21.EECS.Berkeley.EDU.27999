@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      cs199-cfq
+HostName                       c125m-21.EECS.Berkeley.EDU
+ProcessIdentifier              27999
+ProcessCreationTime_UTC        1492738289
+ProcessCreationTime_Readable   Thu Apr 20 18:31:29 2017 PDT
+AppIdentifier                  OA File System Design Manager
+OSType                         unix
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         /home/cc/cs199/fa13/class/cs199-cfq/ee240b/project/240bproject/1stage_diffamp_v1/schematic/sch.oa.cdslck.dirlck
+TimeEditLocked                 Thu Apr 20 18:34:09 2017 PDT

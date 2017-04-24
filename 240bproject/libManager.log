@@ -1,0 +1,349 @@
+\o Program:		@(#)$CDS: libManager version 6.1.5 - CAT32 10/23/2012 17:37 (cat91amd) $
+\o Sub version:		sub-version  s011 
+\o Arguments:		-unmapped -mpssession virtuoso22187 -mpshost c125m-21.EECS.Berkeley.EDU 
+\o Working Directory:	c125m-21.EECS.Berkeley.EDU:/home/cc/cs199/fa13/class/cs199-cfq/ee240b/project/240bproject
+\o 64-bit offsets
+\o Qt version: 		4.5.3
+\o changeWorkingDir("/home/cc/cs199/fa13/class/cs199-cfq/ee240b/project/240bproject") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home/cc/cs199/fa13/class/cs199-cfq/ee240b/project/240bproject/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\o Library Manager customization server connected.
+\a nrSetCurrentWindow(cdsLibManager)
+\w Warning: The directory: '/home/cc/cs199/fa13/class/cs199-cfq/hw9' does not exist
+\w 	but was defined in libFile '/home/cc/cs199/fa13/class/cs199-cfq/cds.lib' for Lib 'hw9'.
+\a nrResizeWindow(cdsLibManager list(0 0 876 554))
+\a nrResizeWindow(cdsLibManager list(947 401 876 554))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = "240bproject"
+\a cdsLibManager->libLineEdit->value = "240bproject"
+\a cdsLibManager->cellListBox->value = "ideal_amplifier"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "1stage_diffamp"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "1stage_diffamp"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/home/cc/cs199/fa13/class/cs199-cfq/hw9' does not exist
+\w 	but was defined in libFile '/home/cc/cs199/fa13/class/cs199-cfq/cds.lib' for Lib 'hw9'.
+\a cdsLibManager->libListBox->value = "240bproject"
+\a cdsLibManager->libLineEdit->value = "240bproject"
+\a cdsLibManager->cellListBox->value = "1stage_diffamp"
+\a cdsLibManager->cellLineEdit->value = "1stage_diffamp"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "real_amplifier"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "real_amplifier"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "1stage_diffamp"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 53 10 2 "1stage_diffamp")
+\a cdsLibManager->cellLineEdit->value = "1stage_diffamp"
+\a cdsLibManager->copySimpleButton->value = t
+\a basicCopyForm->CategoryCellsEdit->value = "*"
+\a basicCopyForm->CellsSkipLibraries->value = t
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->ViewsSkipLibraries->value = t
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CopyFromLibrary->value = "240bproject"
+\a basicCopyForm->CopyToLibrary->value = "240bproject"
+\a basicCopyForm->CopyFromCell->value = "1stage_diffamp"
+\a basicCopyForm->CopyToCell->value = "1stage_diffamp"
+\a basicCopyForm->CellsViewsToCopy->value = "schematic symbol"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = ""
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "US_8ths ahdlLib analogLib avTech basic cdsDefTechLib functional rfExamples rfLib"
+\a basicCopyForm->ViewsSkipLibrariesEdit->value = "US_8ths ahdlLib analogLib avTech basic cdsDefTechLib functional rfExamples rfLib"
+\a nrSetWindowVisibility(basicCopyForm "show")
+\a nrSetCurrentWindow(basicCopyForm)
+\a nrResizeWindow(basicCopyForm list(1153 328 444 621))
+\a nrResizeWindow(basicCopyForm list(1153 350 444 652))
+\a nrSetCurrentWindow(basicCopyForm)
+\a basicCopyForm->CopyToCell->value = "1stage_diffamp_v2"
+\a nrDialogAccept(basicCopyForm)
+\a basicCopyForm->OK->value = t
+\o Beginning simple copy to library "240bproject".
+\o Processing files to be copied...
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\a basicCopyForm->CopyToCell->value = "1stage_diffamp_v2"
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrResizeWindow(workingDialogForm list(1241 423 288 131))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/home/cc/cs199/fa13/class/cs199-cfq/hw9' does not exist
+\w 	but was defined in libFile '/home/cc/cs199/fa13/class/cs199-cfq/cds.lib' for Lib 'hw9'.
+\a cdsLibManager->libListBox->value = "240bproject"
+\a cdsLibManager->libLineEdit->value = "240bproject"
+\a cdsLibManager->cellListBox->value = "1stage_diffamp"
+\a cdsLibManager->cellLineEdit->value = "1stage_diffamp"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
+\a basicCopyForm->CellsSkipLibrariesEdit->value = "US_8ths ahdlLib analogLib avTech basic cdsDefTechLib functional rfExamples rfLib"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "1stage_diffamp_v2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrListItemAction(cdsLibManager->cellListBox 1 0)
+\a cdsLibManager->cellListBox->value = "1stage_diffamp_v2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a cdsLibManager->cellLineEdit->value = "1stage_diffamp_v2"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "real_amplifier"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "1stage_diffamp_v2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "1stage_diffamp"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 79 6 2 "1stage_diffamp")
+\a cdsLibManager->cellLineEdit->value = "1stage_diffamp"
+\a cdsLibManager->editRenameButton->value = t
+\a basicRenameForm->basicRenameFromEdit->value = "1stage_diffamp"
+\a nrSetWindowVisibility(basicRenameForm "show")
+\a basicRenameForm->basicRenameToEdit->value = "1stage_diffamp"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1213 423 343 180))
+\a basicRenameForm->basicRenameToEdit->value = "1stage_diffamp_v1"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "1stage_diffamp" to "1stage_diffamp_v1" in library "240bproject".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\a basicRenameForm->basicRenameToEdit->value = "1stage_diffamp_v1"
+\a nrResizeWindow(workingDialogForm list(0 0 281 131))
+\o ERROR (CLM-219): Error during rename of Cell "1stage_diffamp" to "1stage_diffamp_v1".\n\nCheck the message log for details.
+\a nrSetWindowVisibility(errorDialog "show")
+\a nrSetCurrentWindow(errorDialog)
+\a nrResizeWindow(errorDialog list(1308 600 456 132))
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(errorDialog)
+\a errorDialog->errorOkButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/home/cc/cs199/fa13/class/cs199-cfq/hw9' does not exist
+\w 	but was defined in libFile '/home/cc/cs199/fa13/class/cs199-cfq/cds.lib' for Lib 'hw9'.
+\a cdsLibManager->libListBox->value = "240bproject"
+\a cdsLibManager->libLineEdit->value = "240bproject"
+\a cdsLibManager->cellListBox->value = "1stage_diffamp"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->cellLineEdit->value = "1stage_diffamp"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "1stage_diffamp_v1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "1stage_diffamp_v2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "1stage_diffamp_v1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 110 22 2 "1stage_diffamp_v1")
+\a cdsLibManager->cellLineEdit->value = "1stage_diffamp_v1"
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteBothRadioButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(1062 448 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(1184 509 362 308))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting cell "1stage_diffamp_v1" from library "240bproject".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\o Deleted cell '240bproject/1stage_diffamp_v1'.
+\o Deletion of 1 cell done.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(1244 423 281 131))
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/home/cc/cs199/fa13/class/cs199-cfq/hw9' does not exist
+\w 	but was defined in libFile '/home/cc/cs199/fa13/class/cs199-cfq/cds.lib' for Lib 'hw9'.
+\a cdsLibManager->libListBox->value = "240bproject"
+\a cdsLibManager->libLineEdit->value = "240bproject"
+\a cdsLibManager->cellListBox->value = "1stage_diffamp"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 76 5 2 "1stage_diffamp")
+\a cdsLibManager->cellLineEdit->value = "1stage_diffamp"
+\a cdsLibManager->editRenameButton->value = t
+\a nrSetWindowVisibility(basicRenameForm "show")
+\a basicRenameForm->basicRenameToEdit->value = "1stage_diffamp"
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrResizeWindow(basicRenameForm list(1213 423 343 180))
+\a basicRenameForm->basicRenameToEdit->value = "1stage_diffamp_v1"
+\a nrDialogAccept(basicRenameForm)
+\a basicRenameForm->OK->value = t
+\o Renaming Cell "1stage_diffamp" to "1stage_diffamp_v1" in library "240bproject".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
+\a basicRenameForm->basicRenameToEdit->value = "1stage_diffamp_v1"
+\a nrResizeWindow(workingDialogForm list(1235 595 281 131))
+\a nrSetCurrentWindow(basicRenameForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\w Warning: The directory: '/home/cc/cs199/fa13/class/cs199-cfq/hw9' does not exist
+\w 	but was defined in libFile '/home/cc/cs199/fa13/class/cs199-cfq/cds.lib' for Lib 'hw9'.
+\a cdsLibManager->libListBox->value = "240bproject"
+\a cdsLibManager->libLineEdit->value = "240bproject"
+\a cdsLibManager->cellListBox->value = "1stage_diffamp_v1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "ideal_amplifier"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "real_amplifier"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrListItemAction(cdsLibManager->cellListBox 3 0)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a cdsLibManager->cellLineEdit->value = "real_amplifier"
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "1stage_diffamp_v2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "ideal_amplifier"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "real_amplifier"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "real_amplifier"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "1stage_diffamp_v2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellListBox->value = "1stage_diffamp_v1"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->cellLineEdit->value = "1stage_diffamp_v1"
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->gdmXTView 0 0)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a nrListItemAction(cdsLibManager->cellListBox 0 0)
+\a cdsLibManager->cellListBox->value = "1stage_diffamp_v1"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a cdsLibManager->cellLineEdit->value = "1stage_diffamp_v1"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o libManager is exiting.
+\a exit(0)
+\a basicRenameForm->basicRenameFromEdit->value = "foo"
